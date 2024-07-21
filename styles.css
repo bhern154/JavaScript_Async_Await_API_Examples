@@ -1,0 +1,28 @@
+
+.card_game {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.card_image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: transform 0.3s ease;
+}
+.random_pokemon{
+    display: block;
+}
+.pokemon_card{
+    background-color:aqua;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
